@@ -3,6 +3,7 @@ import React from 'react';
 import { Instagram, Mail, Phone, MapPin, ArrowRight, Facebook, Twitter, Linkedin, Crown } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import Link from 'next/link';
 
 export default function Footer() {
   return (
@@ -151,9 +152,9 @@ export default function Footer() {
               &copy; {new Date().getFullYear()} <span className="text-amber-300">NeoLyf Solutions</span>. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0 text-sm text-amber-200/60">
-              <a href="/privacy-policy" className="hover:text-amber-300 transition duration-300">Privacy Policy</a>
+              <Link href="/privacy" className="hover:text-amber-300 transition duration-300">Privacy Policy</Link>
               <span className="text-amber-500/30">|</span>
-              <a href="/terms-of-service" className="hover:text-amber-300 transition duration-300">Terms of Service</a>
+              <a href="/terms" className="hover:text-amber-300 transition duration-300">Terms of Service</a>
               <span className="text-amber-500/30">|</span>
               <a href="/faq" className="hover:text-amber-300 transition duration-300">FAQ</a>
             </div>
