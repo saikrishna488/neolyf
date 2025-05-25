@@ -29,8 +29,9 @@ export default function RootLayout({
       <body suppressHydrationWarning
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Navbar/>
+        
         <div className="h-full w-full">
+          <Navbar/>
           {children}
           <Footer/>
         </div>

@@ -8,7 +8,7 @@ export default function LandingPage() {
   // Carousel slides
   const slides = [
     {
-      image: "https://cdn.pixabay.com/photo/2014/12/27/14/37/living-room-581073_1280.jpg",
+      image: "https://cdn.pixabay.com/photo/2018/10/28/17/35/smart-home-3779361_1280.jpg",
       title: "Transform Your Home Into A Smart Haven",
       subtitle: "Experience the future of modern living with our cutting-edge smart home solutions"
     },
@@ -121,7 +121,7 @@ export default function LandingPage() {
   return (
     <div className="bg-gradient-to-b from-gray-50 to-gray-100">
       {/* Hero Carousel Section */}
-      <section className="relative h-screen max-h-96 md:max-h-screen overflow-hidden">
+      <section className="relative h-screen max-h-96 md:max-h-[92vh] overflow-hidden">
         <div className="relative h-full w-full">
           {slides.map((slide, index) => (
             <div 
