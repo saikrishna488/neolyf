@@ -11,6 +11,8 @@ export default function Navbar() {
 
     const navItems = [
         { title: "Home", href: "/" },
+        { title: "Smart Hotels", href: "/smart-hotels" },
+        { title: "Smart Buildings", href: "/smart-buildings" },
         { title: "About Us", href: "/about" },
         { title: "Contact Us", href: "/contact" },
     ];
